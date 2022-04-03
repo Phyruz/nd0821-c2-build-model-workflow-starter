@@ -1,0 +1,6 @@
+step_name: basic_cleaning
+script_name: run.py
+job_type: basic_cleaning
+short_description: A very basic data cleaning
+long_description: Download from W&B the raw dataset and apply some basic data cleaning, exporting the result to a new artifact
+parameters: input_artifact,output_artifact,output_type,output_description,min_price,max_price,min_nights,max_nights
